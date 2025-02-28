@@ -4,20 +4,25 @@
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~52.0.36",
-    "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-native": "0.76.7"
+    "expo": "~51.0.39",
+    "expo-brother-printer-sdk": "0.3.0",
+    "expo-document-picker": "~12.0.2",
+    "expo-file-system": "~17.0.1",
+    "expo-image-picker": "~15.1.0",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@types/react": "~18.3.12",
-    "typescript": "^5.3.3"
+    "@babel/core": "7.25.2",
+    "@types/react": "~18.2.79",
+    "typescript": "~5.3.3"
   },
-  "private": true
+  "private": true,
+  "packageManager": "yarn@1.22.22"
 }
